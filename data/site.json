@@ -1,0 +1,83 @@
+{
+  "name": "Hariom Singh",
+  "role": "Content Creator",
+  "location": "India",
+  "tagline": "One creator. Every kind of story.",
+  "intro": "I'm a content creator making reels, vlogs, poetry and promotional content. From open mic stages to music, entertainment and sports events, I turn what I see and feel into content people connect with.",
+  "heroPhoto": "",
+  "aboutPhoto": "",
+  "stats": [
+    {
+      "value": "0K+",
+      "label": "Instagram followers"
+    },
+    {
+      "value": "–",
+      "label": "Unfiltered Angara subscribers",
+      "youtube": "@UnfilteredAngara"
+    },
+    {
+      "value": "–",
+      "label": "Poetic Angara subscribers",
+      "youtube": "@Poetic.angara"
+    }
+  ],
+  "about": {
+    "title": "Hi, I’m Hariom",
+    "paragraphs": [
+      "Write your story here: how you started creating content, where you are from and what drives you.",
+      "Write a second paragraph about the range of what you do: reels, vlogs, poetry, open mics and promoting events and brands, and what ties it all together."
+    ],
+    "quote": "Your one-line motto goes here."
+  },
+  "services": [
+    {
+      "title": "Reels & Short Videos",
+      "text": "Creative, scroll-stopping short-form content for Instagram and beyond."
+    },
+    {
+      "title": "Brand Promotions",
+      "text": "Authentic promotional content that fits my audience and your product."
+    },
+    {
+      "title": "Event Promotion",
+      "text": "Hype, coverage and reach for music, entertainment and sports events."
+    },
+    {
+      "title": "Vlogs",
+      "text": "Day-out vlogs and behind-the-scenes videos from events and everyday life."
+    },
+    {
+      "title": "Poetry & Live Shows",
+      "text": "Original poetry and open mic performances, on stage and online."
+    }
+  ],
+  "poems": [
+    {
+      "title": "Poem Title One",
+      "lines": "Write your first line here,\nand the next line here,\na short stanza is enough."
+    },
+    {
+      "title": "Poem Title Two",
+      "lines": "Another short piece,\nor just your best four lines."
+    }
+  ],
+  "vlogs": [],
+  "brands": [
+    "Event / Brand One",
+    "Event / Brand Two",
+    "Event / Brand Three",
+    "Event / Brand Four",
+    "Event / Brand Five"
+  ],
+  "photos": [],
+  "reels": [],
+  "fans": [],
+  "social": {
+    "instagram": "https://instagram.com/yourhandle",
+    "instagramHandle": "@yourhandle",
+    "youtube": "https://www.youtube.com/@UnfilteredAngara",
+    "email": "you@example.com",
+    "youtube2": "https://www.youtube.com/@Poetic.angara"
+  }
+}

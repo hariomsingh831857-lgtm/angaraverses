@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hariom Singh | Content Creator</title>
+<meta name="description" content="Hariom Singh – content creator. Reels, vlogs, poetry, open mics and event and brand promotions.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎤</text></svg>">
+<style>
+:root{--bg:#f6f2ec;--surface:#fff;--text:#16161a;--muted:#6b6b73;--accent:#e8590c;--line:#e2dcd2;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#121214;--surface:#1c1c20;--text:#f3f1ec;--muted:#a3a3ab;--accent:#ff8a4c;--line:#2d2d33;color-scheme:dark}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.1;margin:0}
+section{padding:84px 0}
+.tag{display:flex;align-items:center;gap:12px;font:600 12px system-ui;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:18px}
+.tag::before{content:attr(data-n);font-family:Georgia,serif;font-size:15px;color:var(--muted)}
+h2{font-size:clamp(30px,5vw,50px);margin-bottom:28px}
+.btn{display:inline-block;padding:13px 26px;border-radius:8px;font:600 14px system-ui;background:var(--accent);color:#fff}
+.btn.o{background:none;color:var(--text);border:1.5px solid var(--text)}
+header.top{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:62px;gap:14px}
+.logo{font:700 20px Georgia,serif}
+.menu{display:flex;gap:20px;font:500 14px system-ui;color:var(--muted);overflow-x:auto;white-space:nowrap}
+.menu a:hover{color:var(--accent)}
+.hero{padding:70px 0 40px}
+.hero .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:center}
+.hero small{font:600 13px system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.hero h1{font-size:clamp(52px,10vw,118px);letter-spacing:-.03em;margin:14px 0 22px}
+.hero h1 em{color:var(--accent);font-style:italic}
+.hero .tl{font:italic 24px Georgia,serif;margin:0 0 12px}
+.hero p{color:var(--muted);max-width:480px}
+.acts{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.arch{border-radius:999px 999px 24px 24px;overflow:hidden;aspect-ratio:3/4}
+.arch img,.arch .ph{width:100%;height:100%;object-fit:cover}
+.ph{background:repeating-linear-gradient(45deg,var(--line),var(--line) 10px,transparent 10px,transparent 20px);display:flex;align-items:center;justify-content:center;color:var(--muted);font:500 13px system-ui;text-align:center;padding:10px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--line);margin-top:40px}
+.stats div{padding:26px 10px;text-align:center;border-right:1px solid var(--line)}
+.stats div:last-child{border:0}
+.stats b{display:block;font:700 40px Georgia,serif;color:var(--accent)}
+.stats span{font-size:13px;color:var(--muted)}
+.about .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;align-items:center}
+.about .pic{aspect-ratio:1/1;border-radius:24px;overflow:hidden;transform:rotate(-2deg)}
+.about .pic img,.about .pic .ph{width:100%;height:100%;object-fit:cover}
+blockquote{margin:24px 0 0;font:italic 22px Georgia,serif;color:var(--accent)}
+.rows{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:70px 1fr 1.4fr;gap:20px;padding:26px 0;border-bottom:1px solid var(--line);align-items:baseline;transition:padding .2s}
+.row:hover{padding-left:12px}
+.row i{font:normal 15px Georgia,serif;color:var(--muted)}
+.row h3{font-size:26px}.row p{margin:0;color:var(--muted)}
+.gal{columns:3 220px;column-gap:14px}
+.gal>*{margin-bottom:14px;break-inside:avoid;border-radius:14px;overflow:hidden;display:block;width:100%}
+.gal img{display:block;width:100%}
+.gal .ph{aspect-ratio:3/4}
+.poems{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.poem{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:14px;padding:28px}
+.poem h3{font-size:24px;margin-bottom:14px}
+.poem p{margin:0;font:italic 19px/1.8 Georgia,serif}
+.vids{grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}
+.vids iframe{height:auto;aspect-ratio:16/9}
+.brands{display:flex;flex-wrap:wrap;gap:12px}
+.brands span{padding:12px 22px;border:1.5px solid var(--line);border-radius:999px;font-weight:600}
+.reels{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.reel{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.reel iframe{width:100%;height:560px;border:0;display:block}
+.reel .ph{height:420px}
+.fans .shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.shots img{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
+.shots .ph{aspect-ratio:3/4;border-radius:14px}
+.find{background:var(--text);color:var(--bg)}
+.find .tag{color:var(--accent)}
+.find .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.find a.box{display:block;padding:26px;border:1.5px solid color-mix(in srgb,var(--bg) 30%,transparent);border-radius:16px}
+.find a.box:hover{border-color:var(--accent)}
+.find b{display:block;font:700 22px Georgia,serif}
+.find small{opacity:.7}
+footer{padding:34px 0;text-align:center;color:var(--muted);font-size:14px}
+@media(max-width:760px){.hero .wrap,.about .wrap{grid-template-columns:1fr}.arch{max-width:340px}.row{grid-template-columns:40px 1fr}.row p{grid-column:2}.reel iframe{height:520px}section{padding:56px 0}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="#top" id="logo"></a>
+  <nav class="menu"><a href="#about">About</a><a href="#work">Work</a><a href="#poetry">Poetry</a><a href="#gallery">Stage</a><a href="#brands">Promoted</a><a href="#reels">Reels</a><a href="#vlogs">Vlogs</a><a href="#fans">Fans</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+  <div>
+    <small id="role"></small>
+    <h1 id="name"></h1>
+    <p class="tl" id="tagline"></p>
+    <p id="intro"></p>
+    <div class="acts"><a class="btn" href="#contact">Work with me</a><a class="btn o" href="#reels">See my work</a></div>
+  </div>
+  <div class="arch" id="heroPic"></div>
+</div>
+<div class="wrap"><div class="stats" id="stats"></div></div></div>
+
+<section class="about" id="about"><div class="wrap">
+  <div class="pic" id="aboutPic"></div>
+  <div><div class="tag" data-n="01">About</div><h2 id="aboutTitle"></h2><div id="aboutText"></div><blockquote id="quote"></blockquote></div>
+</div></section>
+
+<section id="work"><div class="wrap"><div class="tag" data-n="02">What I do</div><h2>What I create</h2><div class="rows" id="services"></div></div></section>
+
+<section id="poetry"><div class="wrap"><div class="tag" data-n="03">Poetry</div><h2>Poetry, in my own words</h2><div class="poems" id="poems"></div><p style="margin-top:24px"><a class="btn o" id="ytBtn2" target="_blank" rel="noopener">Watch more on Poetic Angara</a></p></div></section>
+
+<section id="gallery"><div class="wrap"><div class="tag" data-n="04">On stage</div><h2>Stage, events &amp; behind the scenes</h2><div class="gal" id="gal"></div></div></section>
+
+<section id="brands"><div class="wrap"><div class="tag" data-n="05">Promotions</div><h2>Events &amp; brands I’ve promoted</h2><div class="brands" id="brandList"></div></div></section>
+
+<section id="reels"><div class="wrap"><div class="tag" data-n="06">Featured</div><h2>Reels &amp; posts</h2><div class="reels" id="reelList"></div></div></section>
+
+<section id="vlogs"><div class="wrap"><div class="tag" data-n="07">Vlogs</div><h2>Come along for the day</h2><div class="reels vids" id="vlogList"></div><p style="margin-top:24px"><a class="btn o" id="ytBtn" target="_blank" rel="noopener">More on Unfiltered Angara</a></p></div></section>
+
+<section class="fans" id="fans"><div class="wrap"><div class="tag" data-n="08">Community</div><h2>What my followers say</h2><div class="shots" id="fanList"></div></div></section>
+
+<section class="find" id="contact"><div class="wrap"><div class="tag" data-n="09">Contact</div><h2>Let’s create something together</h2><div class="grid" id="links"></div></div></section>
+</main>
+<footer id="foot"></footer>
+
+<script>
+const $=id=>document.getElementById(id);
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const ph=t=>el('div','ph',t);
+function img(src,alt,label){const i=new Image();i.src=src;i.alt=alt;i.loading='lazy';i.onerror=()=>i.replaceWith(ph(label));return i}
+let SITE;
+function loc(dir,f){f=(f||'').trim();const d=f.match(/drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?.*?id=)([\w-]+)/);
+ if(d)return 'https://drive.google.com/thumbnail?id='+d[1]+'&sz=w1400';return /^(https?:|\/)/.test(f)?f:dir+'/'+f}
+async function boot(){
+SITE=await (await fetch('data/site.json?v='+Date.now())).json();
+['stats','services','photos','reels','vlogs','fans','brands','poems'].forEach(k=>SITE[k]=(SITE[k]||[]).filter(Boolean));
+['photos','reels','vlogs','fans'].forEach(k=>SITE[k].reverse());
+SITE.poems.forEach(p=>{if(typeof p.lines==='string')p.lines=p.lines.split('\n').filter(Boolean)});
+const S=SITE;
+document.title=S.name+' | '+S.role;
+$('logo').textContent=S.name;
+$('role').textContent=S.role+' · '+S.location;
+const parts=S.name.split(' ');$('name').innerHTML='';
+$('name').append(parts[0]+' ',Object.assign(el('em'),{textContent:parts.slice(1).join(' ')}));
+$('tagline').textContent=S.tagline;$('intro').textContent=S.intro;
+$('heroPic').append(img(loc('media',S.heroPhoto||'hero.jpg'),S.name,'Add your hero photo in the CMS'));
+$('aboutPic').append(img(loc('media',S.aboutPhoto||'about.jpg'),S.name,'Add your About photo in the CMS'));
+const sv=[];S.stats.forEach(s=>{const d=el('div'),b=el('b',0,s.value);d.append(b,el('span',0,s.label));$('stats').append(d);if(s.youtube)sv.push([s.youtube,b])});
+if(sv.length)fetch('/.netlify/functions/yt-stats?handles='+encodeURIComponent(sv.map(x=>x[0]).join(','))).then(r=>r.json()).then(o=>sv.forEach(([h,b])=>{const n=o[h];if(typeof n==='number')b.textContent=n>=1e6?(n/1e6).toFixed(1).replace('.0','')+'M':n>=1e3?(n/1e3).toFixed(1).replace('.0','')+'K':String(n)})).catch(()=>{});
+$('aboutTitle').textContent=S.about.title;
+S.about.paragraphs.forEach(p=>$('aboutText').append(el('p',0,p)));
+$('quote').textContent='“'+S.about.quote+'”';
+S.services.forEach((s,i)=>{const r=el('div','row');r.append(el('i',0,String(i+1).padStart(2,'0')),el('h3',0,s.title),el('p',0,s.text));$('services').append(r)});
+(S.photos.length?S.photos.map(f=>img(loc('media',f),'Photo by '+S.name,f)):[1,2,3,4,5,6].map(n=>ph('Photo '+n))).forEach(n=>$('gal').append(n));
+S.poems.forEach(p=>{const d=el('div','poem');d.append(el('h3',0,p.title));p.lines.forEach(l=>d.append(el('p',0,l)));$('poems').append(d)});
+S.brands.forEach(b=>$('brandList').append(el('span',0,b)));
+if(S.reels.length){S.reels.forEach(u=>{const m=u.match(/instagram\.com\/(reel|reels|p|tv)\/([\w-]+)/);if(!m)return;
+  const c=el('div','reel'),f=document.createElement('iframe');f.loading='lazy';f.allowFullscreen=true;f.src='https://www.instagram.com/'+(m[1]==='reels'?'reel':m[1])+'/'+m[2]+'/embed';c.append(f);$('reelList').append(c)})}
+else[1,2,3].forEach(n=>{const c=el('div','reel');c.append(ph('Reel '+n+' – paste its Instagram link in content.js'));$('reelList').append(c)});
+if(S.vlogs.length){S.vlogs.forEach(u=>{const m=u.match(/(?:v=|youtu\.be\/|shorts\/)([\w-]{11})/);if(!m)return;const c=el('div','reel'),f=document.createElement('iframe');f.loading='lazy';f.allowFullscreen=true;f.src='https://www.youtube.com/embed/'+m[1];c.append(f);$('vlogList').append(c)})}
+else[1,2].forEach(n=>{const c=el('div','reel');c.append(ph('Vlog '+n+' – paste its YouTube link in content.js'));$('vlogList').append(c)});
+$('ytBtn').href=S.social.youtube;$('ytBtn2').href=S.social.youtube2;
+(S.fans.length?S.fans.map(f=>img(loc('media',f),'Comment from a follower',f)):[1,2,3,4].map(n=>ph('Fan comment '+n+' – add a screenshot'))).forEach(n=>$('fanList').append(n));
+[['Instagram',S.social.instagramHandle,S.social.instagram],['YouTube · Unfiltered Angara','Watch my vlogs',S.social.youtube],['YouTube · Poetic Angara','Watch my poetry',S.social.youtube2],['Email',S.social.email,'mailto:'+S.social.email]].forEach(([a,b,h])=>{const x=el('a','box');x.href=h;x.target='_blank';x.rel='noopener';x.append(el('small',0,a),el('b',0,b));$('links').append(x)});
+$('foot').textContent='© '+new Date().getFullYear()+' '+S.name+'. All rights reserved.';
+}
+boot();
+</script>
+</body>
+</html>
