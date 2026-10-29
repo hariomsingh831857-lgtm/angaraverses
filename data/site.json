@@ -1,14 +1,13 @@
 {
   "name": "Hariom Singh",
-  "role": "Content Creator",
+  "role": "Digital Creator",
   "location": "India",
   "tagline": "One creator. Every kind of story.",
   "intro": "I'm a content creator making reels, vlogs, poetry and promotional content. From open mic stages to music, entertainment and sports events, I turn what I see and feel into content people connect with.",
-  "heroPhoto": "",
-  "aboutPhoto": "",
+  "heroPhoto": "/media/IMG-20250801-WA0034.jpg",
   "stats": [
     {
-      "value": "0K+",
+      "value": "840+",
       "label": "Instagram followers"
     },
     {
@@ -28,7 +27,7 @@
       "Write your story here: how you started creating content, where you are from and what drives you.",
       "Write a second paragraph about the range of what you do: reels, vlogs, poetry, open mics and promoting events and brands, and what ties it all together."
     ],
-    "quote": "Your one-line motto goes here."
+    "quote": "Funny, filmy & a little too honest."
   },
   "services": [
     {
@@ -62,7 +61,6 @@
       "lines": "Another short piece,\nor just your best four lines."
     }
   ],
-  "vlogs": [],
   "brands": [
     "Event / Brand One",
     "Event / Brand Two",
@@ -70,14 +68,11 @@
     "Event / Brand Four",
     "Event / Brand Five"
   ],
-  "photos": [],
-  "reels": [],
-  "fans": [],
   "social": {
     "instagram": "https://instagram.com/yourhandle",
     "instagramHandle": "@yourhandle",
     "youtube": "https://www.youtube.com/@UnfilteredAngara",
-    "email": "you@example.com",
-    "youtube2": "https://www.youtube.com/@Poetic.angara"
+    "youtube2": "https://www.youtube.com/@Poetic.angara",
+    "email": "you@example.com"
   }
 }
