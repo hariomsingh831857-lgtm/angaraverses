@@ -1,0 +1,60 @@
+media:
+  input: media
+  output: /media
+
+content:
+  - name: site
+    label: Website content
+    type: file
+    path: data/site.json
+    fields:
+      - { name: name, label: Your name, type: string }
+      - { name: role, label: Role (small text above name), type: string }
+      - { name: location, label: Location, type: string }
+      - { name: tagline, label: Tagline, type: string }
+      - { name: intro, label: Intro paragraph, type: text }
+      - { name: heroPhoto, label: Hero photo, type: image }
+      - { name: aboutPhoto, label: About photo, type: image }
+      - name: stats
+        label: Stats (3 numbers under the hero)
+        type: object
+        list: true
+        fields:
+          - { name: value, label: Number, type: string }
+          - { name: label, label: Label, type: string }
+          - { name: youtube, label: YouTube handle for automatic count (optional, e.g. @name), type: string }
+      - name: about
+        label: About section
+        type: object
+        fields:
+          - { name: title, label: Heading, type: string }
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+          - { name: quote, label: Favourite line / motto, type: string }
+      - name: services
+        label: What I create
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Description, type: text }
+      - name: poems
+        label: Poetry (one line per row)
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Poem title, type: string }
+          - { name: lines, label: Poem, type: text }
+      - { name: photos, label: Stage and event photos (newest at the bottom shows first), type: image, list: true }
+      - { name: brands, label: Events and brands promoted, type: string, list: true }
+      - { name: reels, label: Instagram reel / post links (newest at the bottom shows first), type: string, list: true }
+      - { name: vlogs, label: YouTube vlog links (newest at the bottom shows first), type: string, list: true }
+      - { name: fans, label: Fan comment screenshots, type: image, list: true }
+      - name: social
+        label: Social links
+        type: object
+        fields:
+          - { name: instagram, label: Instagram link, type: string }
+          - { name: instagramHandle, label: Instagram handle, type: string }
+          - { name: youtube, label: Vlogs channel link (Unfiltered Angara), type: string }
+          - { name: youtube2, label: Poetry channel link (Poetic Angara), type: string }
+          - { name: email, label: Email, type: string }
