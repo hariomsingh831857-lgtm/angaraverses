@@ -24,8 +24,8 @@
   "about": {
     "title": "Hi, I’m Hariom",
     "paragraphs": [
-      "Write your story here: how you started creating content, where you are from and what drives you.",
-      "Write a second paragraph about the range of what you do: reels, vlogs, poetry, open mics and promoting events and brands, and what ties it all together."
+      "My creative journey began with writing poetry, where I discovered my love for expressing emotions through words. Gradually, I started bringing those words to life through videos, reels, and storytelling. Over the past 2–3 years, content creation has become my way of exploring ideas, capturing moments, and connecting with people. What drives me is the freedom to create and turn ordinary experiences into stories that make people feel something.",
+      "From fun and relatable reels, lifestyle vlogs, and poetry to open mics, event promotions, and brand collaborations, I love experimenting with different forms of storytelling. Whether I'm making someone laugh, sharing an experience, performing on stage, or bringing a brand's story to life, I believe every piece of content should have its own personality and connect with its audience."
     ],
     "quote": "Funny, filmy & a little too honest."
   },
@@ -53,26 +53,34 @@
   ],
   "poems": [
     {
-      "title": "Poem Title One",
-      "lines": "Write your first line here,\nand the next line here,\na short stanza is enough."
+      "title": "फूल और कांटे ",
+      "lines": "मुझे सोना पसंद है नींद बहुत आती है \nख़ुदसे नफ़रत है थोड़ी ज़्यादा \nलोगो से उम्मीद हो जाती है \n\nफुलो में गुलाब पर मुझे कांटे पसंद है \nगुलाबो से कम जख्म दे जाते हैं\nमैं खुली किताब, सबको बंद पसंद आती है "
     },
     {
-      "title": "Poem Title Two",
-      "lines": "Another short piece,\nor just your best four lines."
+      "title": "अंधेरा ",
+      "lines": "तुम जब गौर करोगी तो तुम्हें पता चलेगा ,\nये अँधेरा अन्तर्मन का है, और अंतर्मन के अँधेरे में कुछ नहीं निकलता।"
     }
   ],
   "brands": [
-    "Event / Brand One",
-    "Event / Brand Two",
-    "Event / Brand Three",
-    "Event / Brand Four",
-    "Event / Brand Five"
+    "KHELO INDIA UNIVERSITY GAMES ",
+    "Giva ",
+    "CLT 10",
+    "GARNIER MEN "
+  ],
+  "reels": [
+    "https://www.instagram.com/reel/DetuMIFyox9/?rpxt=Njd3cmt5Mm9wMTJl"
+  ],
+  "vlogs": [
+    "https://youtu.be/XTntd7cW2bE?si=5E6UD0unWZl50RjL"
+  ],
+  "fans": [
+    "/media/1000348471.png"
   ],
   "social": {
-    "instagram": "https://instagram.com/yourhandle",
-    "instagramHandle": "@yourhandle",
+    "instagram": "https://instagram.com/iangara_",
+    "instagramHandle": "Iangara_",
     "youtube": "https://www.youtube.com/@UnfilteredAngara",
     "youtube2": "https://www.youtube.com/@Poetic.angara",
-    "email": "you@example.com"
+    "email": "hariomsingh831857@gmail.com"
   }
 }
